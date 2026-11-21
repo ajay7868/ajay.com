@@ -21,6 +21,7 @@ const scenes = [
 export default function Home(){
  const root=useRef<HTMLElement>(null);
  useEffect(()=>{
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   let ctx:{revert:()=>void}|undefined; let mounted=true;
   import("gsap").then(async({gsap})=>{
    const{ScrollTrigger}=await import("gsap/ScrollTrigger"); if(!mounted||!root.current)return;
