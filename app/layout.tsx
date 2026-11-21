@@ -20,14 +20,12 @@ export const metadata: Metadata = {
     description:
       "Explore Ajay's engineering journey, selected work, technical expertise and AI-focused product engineering.",
     siteName: "Ajay Kumar Yadav",
-    images: [{ url: "/ajay-portrait.svg", width: 1280, height: 1792, alt: "Ajay Kumar Yadav" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ajay Kumar Yadav | Senior Full Stack & AI Engineer",
     description:
       "Senior full-stack engineer building scalable products, distributed systems and AI-powered experiences.",
-    images: ["/ajay-portrait.svg"],
   },
   robots: { index: true, follow: true },
 };
